@@ -13,3 +13,11 @@ app.bat
 ### 演示界面
 
 ![](https://github.com/yaunsine/git-win-console/blob/master/imgs/interface-main3.png?raw=true)
+
+
+
+### 特别注意
+
+- 一键提交代码功能
+
+仅限于个人开发的项目中使用，这个会默认提交所有更改的内容到远程origin的master分支，提交信息为update，慎用。
