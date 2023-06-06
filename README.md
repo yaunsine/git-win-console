@@ -1,7 +1,6 @@
 # git-win-console
 
-# ![](https://github.com/yaunsine/git-win-console/blob/master/imgs/logg1.png?raw=true)
-![](http://rvu0svaa8.hb-bkt.clouddn.com/logg1.png)
+![banner图](https://github.com/yaunsine/git-win-console/blob/master/imgs/logg1.png?raw=true)
 
 git命令行工具，打造出傻瓜式windows终端Git全流程操作，旨在轻量化git流程（Git Lighter）
 
@@ -23,7 +22,7 @@ app.bat
 
 ### 演示界面
 
-![](https://github.com/yaunsine/git-win-console/blob/master/imgs/interface-main3.png?raw=true)
+![演示图](https://github.com/yaunsine/git-win-console/blob/master/imgs/interface-main3.png?raw=true)
 
 ### 特别注意
 
