@@ -1,6 +1,6 @@
 # git-win-console
 
-![](https://github.com/yaunsine/git-win-console/blob/master/imgs/logg.png?raw=true)
+![](https://github.com/yaunsine/git-win-console/blob/master/imgs/logg1.png?raw=true)
 
 git命令行工具，打造出傻瓜式windows终端Git全流程操作，旨在轻量化git流程（Git Lighter）
 
@@ -13,8 +13,6 @@ git命令行工具，打造出傻瓜式windows终端Git全流程操作，旨在�
    |__
        git-app.bat(app.bat)
 ```
-
-
 
 启动脚本，双击`app.bat`脚本或者cmd运行以下指令
 
