@@ -4,6 +4,16 @@ git命令行工具，打造出傻瓜式windows终端Git全流程操作，旨在�
 
 ### QuickStart快速开始
 
+将`app.bat`放置在要管理的项目根路径。
+
+```
+-.项目路径
+   |__
+       git-app.bat(app.bat)
+```
+
+
+
 启动脚本，双击`app.bat`脚本或者cmd运行以下指令
 
 ```shell
@@ -13,8 +23,6 @@ app.bat
 ### 演示界面
 
 ![](https://github.com/yaunsine/git-win-console/blob/master/imgs/interface-main3.png?raw=true)
-
-
 
 ### 特别注意
 

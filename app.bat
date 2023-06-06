@@ -15,10 +15,10 @@ echo "5、提交并填写提交信息"
 echo "6、查看add信息"
 echo "7、查看commit信息"
 echo "8、推送已提交内容到远程仓库"
-echo "9、更新代码"
+echo "9、初始化git仓库"
 echo "11、clone代码"
-echo "12、更新代码"
-echo "13、查看当前分支"
+echo "12、更新pull仓库代码"
+echo "13、查看分支"
 echo "14、切换分支"
 echo "15、配置socks5代理端口"
 echo "16、清除socks5代理端口"
@@ -68,14 +68,14 @@ git clone %originUrl%
 goto menu
 
 :pullGit
-set /p originUrl="请输入远程仓库链接:> "
-set /p branchName="请输入分支名称:> "
+@REM set /p originUrl="请输入远程仓库链接（默认为origin）:> "
+set /p branchName="请输入分支名称（默认为master）:> "
 if "%branchName%"=="" (set branchName="master")
-git pull %originUrl% %branchName%
+git pull origin %branchName%
 goto menu
 
 :showBranch
-git branch
+git branch -a
 goto menu
 
 :checkoutBranch
