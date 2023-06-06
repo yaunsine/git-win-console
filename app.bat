@@ -1,7 +1,9 @@
 chcp 65001
 @echo off
-@title git快捷工具-by yaunsine(https://github.com/yaunsine)
-
+@title git快捷工具-by yaunsine
+@echo ################################################################################
+@echo ## git快捷工具-by yaunsine(https://github.com/yaunsine/git-win-console)     ##
+@echo ################################################################################
 
 :menu
 echo  ======================================
@@ -112,8 +114,9 @@ git commit -m "%commitMsg%"
 goto menu
 
 :pushBranch
-set /p branch="输入分支（默认为master）:> "
-if "%branch%"=="" (set branch="master")
+set /p branchName="输入分支（默认为master）:> "
+if "%branchName%"=="" (set branchName="master")
+git push origin %branchName%
 goto menu
 
 :showStatus
